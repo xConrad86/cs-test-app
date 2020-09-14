@@ -1,0 +1,2 @@
+export const FETCH_REQUESTS = 'FETCH_REQUESTS';
+export const UPDATE_REQUESTS = 'UPDATE_REQUESTS';

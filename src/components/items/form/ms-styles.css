@@ -1,0 +1,101 @@
+#multiselectContainerReact {
+    margin-bottom: 45px;
+    float: none;
+    width: 42.5vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    font-size: 16px;
+    height: 46px;
+    border: 1px;
+  }
+
+  input[type='checkbox'] {
+	margin-top: 1px;
+}
+
+  input[type='checkbox'] {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeSpeed;
+    width: 1.75vw;
+    height: 1vw;
+    margin: 0;  
+    margin-right: 3px;
+    margin-left: 3px;
+    display: block;
+    float: left;
+    position: relative;
+    cursor: pointer;
+    
+  }
+    input[type='checkbox']:after {
+    content: "";
+    vertical-align: middle;
+    text-align: center;
+    
+    position: absolute;
+    cursor: pointer;
+    width: 1.75vw;
+    height: 1.5vw;
+    left: 0;
+    top: 0;
+    font-size: 10px;
+    
+    -webkit-box-shadow: inset 1px 1px 1px #D4D4D4, 1px 1px 1px #D4D4D4;
+    -moz-box-shadow: inset 1px 1px 1px #D4D4D4, 1px 1px 1px #D4D4D4;
+    box-shadow: inset 1px 1px 1px #D4D4D4, 1px 1px 1px #D4D4D4;
+      background: white;
+      
+      }
+      input[type='checkbox']:hover:after, input[type='checkbox']:checked:hover:after {
+          background: black;
+          content: '\2714';
+          color: #fff;
+      }
+
+      input[type='checkbox']:checked:after {
+          background: black;
+          content: '\2714';
+          color: #fff;
+      }
+
+
+    code {
+      padding: 10px;
+      background: #f1f1f1;
+    }
+  .mt10 {
+    margin-top: 10px;
+  }
+  .mt20 {
+    margin-top: 20px;
+  }
+  .mb20 {
+    margin-bottom: 20px;
+  }
+  .mt40 {
+    margin-top: 40px;
+  }
+  .displayBlock {
+    display: block;
+  }
+  .contents a {
+    display: block;
+    margin-bottom: 20px;
+    color: black;    
+    max-height: 10px;
+    text-decoration: underline;
+  }
+  .otheroptions {
+    font-size: 14px;
+  }
+    
+  /* Overriding element hover */
+  .optionContainer li:hover,
+  .optionContainer .highlight {
+    background: black;
+    color: #fff;    
+  }
+  /* Ends overriding */
+  
+
+
